@@ -95,22 +95,34 @@ nav a:hover {
   #WorkHeading {
     padding-top: 20px;
   }
-  .sample-img {
-     width: 100%;
+  .ProjectTemplate {
+    width: 100%;
     padding: 20px;
     height: 200px;
     border: 3px solid black;
     flex: 1 1 50%;
     background-image: url("./Comingsoon.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     transition: 100ms;
     filter:blur(.8px);
     box-shadow: black;
-    
   }
 
-  .sample-img:hover {
+  .sample-img2 {
+    background-image: url("./Projects/refactor.png");
+  }
+  .sample-img3 {
+    background-image: url("./Projects/password.png");
+  }
+  .sample-img4 {
+    background-image: url("./Projects/schedule.gif");
+  }
+  .sample-img5 {
+    background-image: url("./Projects/odingquiz.png");
+  }
+
+  .ProjectTemplate:hover {
     transform: scale(1.04);
     filter:blur(0px);
   
@@ -131,7 +143,8 @@ nav a:hover {
   }
   #Project1 {
     flex: 1 1 100%;
-    background-image: url("./01-html-css-git-homework-demo.png");
+    background-image: url("./Projects/Feedit.png");
+    background-size: cover;
   }
 
   div li {
