@@ -4,7 +4,7 @@
     height: 200px;
     border: 0px inset gray;
     border-radius: 16px;
-    flex: 1 1 40%;
+    flex: 1 1 50%;
     background-image: url("./Comingsoon.png");
     background-size: cover;
     background-position: center;
@@ -13,7 +13,6 @@
     filter:blur(2px);
 /*    box-shadow: black;*/
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
-    
   }
 
   #Project1 {
