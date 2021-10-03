@@ -18,24 +18,24 @@
 
   #Project1 {
     flex: 1 1 100%;
-    background-image: url("/assets/img/Projects/Feedit.png");
+    background-image: url("../assets/img/Projects/Feedit.png");
     background-size: cover;
       box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
   }
   .sample-img2 {
-    background-image: url("/assets/img/Projects/refactor.png");
+    background-image: url("../assets/img/Projects/refactor.png");
       filter:blur(2px);
   }
   .sample-img3 {
-    background-image: url("/assets/img/Projects/password.png");
+    background-image: url("../assets/img/Projects/password.png");
       filter:blur(2px);
   }
   .sample-img4 {
-    background-image: url("/assets/img/Projects/schedule.gif");
+    background-image: url("../assets/img/Projects/schedule.gif");
       filter:blur(2px);
   }
   .sample-img5 {
-    background-image: url("/assets/img/Projects/odingquiz.png");
+    background-image: url("../assets/img/Projects/odingquiz.png");
       filter:blur(2px);
   }
 
