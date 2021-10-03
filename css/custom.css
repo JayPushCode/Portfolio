@@ -1,0 +1,74 @@
+  .ProjectTemplate {
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 0px inset gray;
+    border-radius: 16px;
+    flex: 1 1 50%;
+    background-image: url("./Comingsoon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: 100ms;
+    filter:blur(2px);
+/*    box-shadow: black;*/
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
+    
+  }
+
+  #Project1 {
+    flex: 1 1 100%;
+    background-image: url("/assets/img/Projects/Feedit.png");
+    background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
+  }
+  .sample-img2 {
+    background-image: url("/assets/img/Projects/refactor.png");
+      filter:blur(2px);
+  }
+  .sample-img3 {
+    background-image: url("/assets/img/Projects/password.png");
+      filter:blur(2px);
+  }
+  .sample-img4 {
+    background-image: url("/assets/img/Projects/schedule.gif");
+      filter:blur(2px);
+  }
+  .sample-img5 {
+    background-image: url("/assets/img/Projects/odingquiz.png");
+      filter:blur(2px);
+  }
+
+  .ProjectTemplate:hover {
+    transform: scale(1.04);
+    filter:blur(0px);
+      
+  }
+   
+  #Portfolio-work {
+    flex: 1 1 35%;
+    padding: 20px;
+    color: white;
+
+  }
+  #Portfolio-work p{
+    line-height: 3;
+    line-break:auto;
+  }
+  #Portfolio-work {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px 20px 20px;
+    gap: 30px 10px;
+
+  }
+#Portfolio-work a {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    align-self: center;
+    text-shadow: 2px 2px 4px #000000;
+    filter:blur(0px);
+    vertical-align: middle;
+    align-items: center;
+}

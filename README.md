@@ -8,7 +8,7 @@ This website is an original commit for Wongani Jere's personal Portfolio display
 
 Below is a screenshot of the Webiste:
 
-![screenshot](./Assets/PORTFOLIO.png/)
+![screenshot](./assets/img/PORTFOLIO.png)
 
 
 ## Link to Deployable URL
